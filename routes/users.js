@@ -1,7 +1,7 @@
 const userRoutes = (app, fs) => {
     // variables
     const dataPath = "./data/users.json";
-  
+
     const readFile = (
         callback,
         returnJson = false,
@@ -12,7 +12,6 @@ const userRoutes = (app, fs) => {
           if (err) {
             throw err;
           }
-    
           callback(returnJson ? JSON.parse(data) : data);
         });
       };
@@ -26,11 +25,9 @@ const userRoutes = (app, fs) => {
           if (err) {
             throw err;
           }
-    
           callback();
         });
       };
-    
     // READ
     app.get("/users", (req, res) => {
       fs.readFile(dataPath, "utf8", (err, data) => {
@@ -41,7 +38,7 @@ const userRoutes = (app, fs) => {
         res.send(JSON.parse(data));
       });
     });
-  };
+
 
   // CREATE 
   app.post("/users", (req, res) => {
