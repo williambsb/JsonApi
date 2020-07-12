@@ -1,0 +1,23 @@
+{
+    "1": {
+        "name": "Parceiro1",
+        "city": "Brasilia",
+        "zipcode": "71909180",
+        "daytopost": "2",
+        "handle": ""
+   },
+   "2": {
+    "name": "Parceiro2",
+    "city": "Goiania",
+    "zipcode": "72109233",
+    "daytopost": "1",
+    "handle": ""
+   },
+   "3": {
+    "name": "Parceiro3",
+    "city": "Sao Paulo",
+    "zipcode": "11230108",
+    "daytopost": "1",
+    "handle": ""
+   }
+}
