@@ -79,4 +79,5 @@ app.delete("/users/:id", (req, res) => {
       });
     }, true);
   });
+};
   module.exports = userRoutes;
